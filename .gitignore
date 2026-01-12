@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+env/
+donkey/
+
+# Logs
+logs/
+tensorboard/
+*.monitor.csv
+
+# Ignore ALL zoo logs
+rl-baselines3-zoo/logs/**/*
+# Keep ONLY best model
+!rl-baselines3-zoo/logs/tqc/donkey-mountain-track-v0_13/rl_model_180000_steps.zip
+
+# OS
+.DS_Store
